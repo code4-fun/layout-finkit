@@ -350,7 +350,7 @@ body {
 }
 .key_products_item {
   display: flex;
-  max-width: 502px;
+  width: 502px;
   height: 328px;
   background-color: #E9F6FF;
   border-radius: 30px;
@@ -367,14 +367,15 @@ body {
   font-size: 14px;
   line-height: 140%;
 }
-.key_products_img {
-  max-width: 261px;
+.key_products_description {
+  max-width: 205px;
 }
 .key_products_img img {
-  width: 100%;
-  margin-top: -38px;
+  position: relative;
+  bottom: 24px;
+  right: -14px;
 }
-@media (max-width: 1126px) {
+@media (max-width: 1144px) {
   .key_products_container {
     max-width: 502px;
   }
@@ -406,20 +407,18 @@ body {
   }
   .key_products_description {
     width: 160px;
-    padding: 0 10px 0 0;
   }
   .key_products_title {
     font-size: 16px;
     padding-bottom: 4px;
-    width: 155px;
   }
   .key_products_text {
     font-size: 13px;
-    width: 155px;
   }
   .key_products_img img {
-    width: 100%;
-    margin-top: -21px;
+    width: 163px;
+    bottom: 16px;
+    right: -1px;
   }
 }
 /* ------------------------------------MOBILE APP-------------------------------------- */
