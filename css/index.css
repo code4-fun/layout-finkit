@@ -132,6 +132,12 @@ body {
   border-radius: 12px;
   color: #fff;
   background: #0962E8;
+  transition: all 0.3s ease 0s;
+}
+.custom_button:hover {
+  color: #0962E8;
+  background: #fff;
+  border: 1px solid #0962E8;
 }
 /* image */
 .main_image {
